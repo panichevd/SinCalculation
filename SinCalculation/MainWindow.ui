@@ -87,6 +87,9 @@
        </item>
        <item>
         <widget class="QDoubleSpinBox" name="aSpinBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
          <property name="minimum">
           <double>-10000000.990000000223517</double>
          </property>
@@ -115,6 +118,9 @@
        </item>
        <item>
         <widget class="QDoubleSpinBox" name="bSpinBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
          <property name="minimum">
           <double>-10000000.990000000223517</double>
          </property>

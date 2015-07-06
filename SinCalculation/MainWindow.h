@@ -24,7 +24,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    CalculationThread m_calcThread;
+    CalculationThread *m_calcThread;
 };
 
 #endif // MAINWINDOW_H
